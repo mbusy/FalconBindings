@@ -7,7 +7,8 @@ Allows the user to interact with the joystick directly from Python.
 On Windows, only use the following command (in the Python folder) to generate the binding module :
 > mingw32-make
 
-Put the folder with your python modules (site-packages/)\\
+Put the folder with your python modules (site-packages/)
+
 Use the module :
 
 ```python
