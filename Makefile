@@ -1,4 +1,4 @@
-CC       = g++ -shared -std=c++11
+CC       = g++ -shared
 SRC 	 = lib_falcon/src/falconModule.cpp
 PYD 	 = falconModule.pyd
 PATH_PYD = lib_falcon/bin/
