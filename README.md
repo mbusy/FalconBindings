@@ -9,7 +9,7 @@ On Windows, only use the following command (in the Python folder) to generate th
 
 Put the folder with your python modules (site-packages/)
 
-Use the module :
+Code sample showing how to use the module :
 
 ```python
 from FalconBindings import falcon_controller
