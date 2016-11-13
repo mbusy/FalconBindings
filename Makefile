@@ -12,14 +12,8 @@ PY_LINK  = -lpython27
 
 all:
 	echo 'Compiling for $(OS)...'
-
-ifeq ($(OS),Windows_NT)
 	$(CC) $(SRC) -o $(PATH_PYD)/$(PYD) -I $(INC) -I $(PY_INC) -I $(HEADERS) -L $(LIB) $(LINK) -L $(PY_LIB) $(PY_LINK)
 
-else
-	echo 'Will not compile for $(OS), only Windows_NT'
-
-endif
 
 clean:
 
