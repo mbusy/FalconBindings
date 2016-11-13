@@ -1,8 +1,14 @@
+language: cpp
+compiler:
+  -g++
+
+script: make
+
 language: python
 python:
   - "2.7"
   
-install: "make"
+install: "echo @No dependencies..."
 
 before_script: echo @Preping the tests...
 
