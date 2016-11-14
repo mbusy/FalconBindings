@@ -17,7 +17,7 @@ ifeq ($(OS),Windows_NT)
 	$(CC) $(SRC) -o $(PATH_PYD)/$(PYD) -I $(INC) -I $(PY_INC) -I $(HEADERS) -L $(LIB) $(LINK) -L $(PY_LIB) $(PY_LINK)
 
 else
-	echo 'not implemented for $(OS) for now'
+	echo 'not implemented for $(OS)'
 
 endif
 
