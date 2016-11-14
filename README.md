@@ -1,4 +1,4 @@
-# Python bindings for the Falcon joystick (Novint) ![Build Status](https://travis-ci.org/Pandhariix/FalconBindings.svg?branch=master)
+# Python bindings for the Falcon joystick (Novint)
 
 ## Description
 Allows the user to interact with the joystick directly from Python.

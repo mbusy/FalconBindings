@@ -1,4 +1,0 @@
-install:
-  - echo Preping the tests
-  - cmd: make
-  - cmd: python test_script.py
