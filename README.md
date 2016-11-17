@@ -3,11 +3,7 @@
 ## Description
 Allows the user to interact with the joystick directly from Python.
 
-## Install
-On Windows, only use the following command (in the Python folder) to generate the binding module :
-> mingw32-make
-
-Put the folder with your python modules (site-packages/)
+## How to use the bindings
 
 Code sample showing how to use the module :
 
@@ -25,6 +21,12 @@ buttonsState     = controller.getButtonsState()
 controller.setForce(1, 1, 1)
 controller.stopDevice()
 ```
+
+## Install
+On Windows, only use the following command (in the Python folder) to generate the binding module :
+> mingw32-make
+
+Put the folder with your python modules (site-packages/)
 
 ## Troubleshooting
 
